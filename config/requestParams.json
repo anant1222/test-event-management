@@ -1,0 +1,4 @@
+{
+    "userSignup": ["email", "name", "password"],
+    "userLogin": ["email", "password", "type"]
+}
