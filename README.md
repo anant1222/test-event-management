@@ -47,7 +47,7 @@ The **Test Event Management System** is an AI-driven platform designed to stream
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/w3villa-suraj-bisht/test-event-management.git
+    git clone https://github.com/anant1222/test-event-management.git
     cd test-event-management-system
     ```
 
@@ -107,4 +107,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Contact**: For any questions or feedback, please contact the project maintainer at [code_commando@gmail.com].
+**Contact**: For any questions or feedback, please contact the project maintainer at [anantkumary9@gmail.com].
