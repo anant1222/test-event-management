@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Results</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0;">
+    <div style="max-width: 600px; margin: 0 auto; background-color: #ffffff; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+        <div style="text-align: center; background-color: #4F46E5; padding: 10px 0; border-radius: 10px 10px 0 0; color: #ffffff;">
+            <h1>Your Test Results</h1>
+        </div>
+        <div style="margin: 20px 10px;">
+            <p style="font-size: 16px; line-height: 1.5; color: #666666;">Dear {{userFirstName}},</p>
+            <p style="font-size: 16px; line-height: 1.5; color: #666666;">Thank you for taking the <strong>{{testName}}</strong> on <strong>{{websiteName}}</strong>. We appreciate your participation and hope you found the experience valuable.</p>
+            <h2 style="color: #333333;">Your Results:</h2>
+            <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+                <tr>
+                    <th style="border: 1px solid #dddddd; padding: 8px; text-align: left; background-color: #f2f2f2;">Test Name</th>
+                    <td style="border: 1px solid #dddddd; padding: 8px; text-align: left;">{{testName}}</td>
+                </tr>
+                <tr>
+                    <th style="border: 1px solid #dddddd; padding: 8px; text-align: left; background-color: #f2f2f2;">Correct Count</th>
+                    <td style="border: 1px solid #dddddd; padding: 8px; text-align: left;">{{correctCount}}</td>
+                </tr>
+                <tr>
+                    <th style="border: 1px solid #dddddd; padding: 8px; text-align: left; background-color: #f2f2f2;">Total Attempt</th>
+                    <td style="border: 1px solid #dddddd; padding: 8px; text-align: left;">{{totalAttempt}}</td>
+                </tr>
+                <tr>
+                    <th style="border: 1px solid #dddddd; padding: 8px; text-align: left; background-color: #f2f2f2;">Score</th>
+                    <td style="border: 1px solid #dddddd; padding: 8px; text-align: left;">{{userScore}}</td>
+                </tr>
+                <tr>
+                    <th style="border: 1px solid #dddddd; padding: 8px; text-align: left; background-color: #f2f2f2;">Result</th>
+                    <td style="border: 1px solid #dddddd; padding: 8px; text-align: left;">{{resultStatus}}</td>
+                </tr>
+            </table>
+
+            <div style="text-align: center; margin-top: 20px;">
+                <a href="{{websiteUrl}}" style="display: inline-block; padding: 10px 20px; background-color: #4F46E5; color: #ffffff; text-decoration: none; border-radius: 5px;">Visit Our Website</a>
+            </div>
+
+            <p style="font-size: 16px; line-height: 1.5; color: #666666;">If you have any questions or would like further insights into your performance, please don't hesitate to reach out to us.</p>
+
+            <p style="font-size: 16px; line-height: 1.5; color: #666666;">Thank you again for participating. We wish you the best in your continued learning and growth.</p>
+        </div>
+        <div style="text-align: center; margin-top: 20px; color: #999999; font-size: 14px;">
+            <!-- Footer content here if needed -->
+        </div>
+    </div>
+</body>
+</html>

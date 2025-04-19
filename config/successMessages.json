@@ -1,4 +1,22 @@
 {
     "userAddedSucessfully": "User added successfully",
-    "userRegistered": "User registered successfully"
+    "userRegistered": "User registered successfully",
+    "loginSuccess": "Login successful",
+    "categoryCreated": "Category created successfully",
+    "categoriesFetched": "Categories fetched successfully.",
+    "categoriesUpdated": "Categories updated successfully",
+    "questionCreated": "question created successfully.",
+    "questionsGenerated":"Question generation successfully",
+    "questionFetched": "question Fetched successfully.",
+    "questionsFetched": "Questions Fetched successfully.",
+    "questionUpdated": "Question Updated successfully.",
+    "scoreFetched": "Score fetched successfully",
+    "resultWillBeDeclaredLater": "Result will be declared later",
+    "emailSentSuccessfully": "Email sent successfully",
+    "optionsCreated": "options created successfully.",
+    "userPapersFetched": "User Papers fetched successfully",
+    "noQuestionsFound": "No questions found",
+    "noDetailsFound": "No details found",
+    "noQuestionPapersFound": "No question paper found"
+
 }

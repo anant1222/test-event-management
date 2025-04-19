@@ -1,4 +1,9 @@
 {
     "userSignup": ["email", "name", "password"],
-    "userLogin": ["email", "password", "type"]
+    "userLogin": ["email", "password", "type"],
+    "fetchScore": ["answers", "questionPaperId"],
+    "storeQuickQuestions":["questions","totalMarks","passingMarks","totalDuration","maxTabSwitchAttempts","displayResultAfterSubmit","userId","testName","category","difficulty"],
+    "generateQuickQuestions":["category", "difficulty", "totalQuestion"],
+    "generateQuestions":["category"],
+    "questionPaperDetails": [ "questionPaperId"]
 }

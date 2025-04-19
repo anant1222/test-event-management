@@ -1,8 +1,21 @@
 {
   "development": {
-    "host": "localhost",
-    "username": "root",
-    "password": "",
+    "host": "quickdev-database.c9kwqeey22tg.eu-west-2.rds.amazonaws.com",
+    "username": "superone-dev",
+    "password": "Super0ne(890;)",
     "database": "test-managment"
+  },
+  "staging": {
+    "host": "quickdev-database.c9kwqeey22tg.eu-west-2.rds.amazonaws.com",
+    "username": "superone-dev",
+    "password": "Super0ne(890;)",
+    "database": "test-managment"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
   }
 }
